@@ -1,24 +1,32 @@
-# Back-end for WRATH OF ANUBIS
+# Wrath of Anubis - server 
 
 
-## INSTRUCTIONS:
-1. ## GIT CLONE REPO
-    ### git clone <repo name>
-2. ## INSTALL DEPENDENCIES
-    ### npm install
+### Installation: 
+> Fork and clone the repository. 
 
+   ```git clone <repo name>```
+    
+> Install dependencies. 
 
-
-## SCRIPT COMMANDS
-1. ## SEED DATABASE WITH 50 USERS
-    ### npm run seed
-2. ## RUN IN DEV MODE WITH NODEMON
-    ### npm run dev
+   ```npm install```
+    
 
 
 
+### Usage
+> Seed database with 50 users 
 
-## ROUTES
+   ```npm run seed```
+   
+> Run in development mode with Nodemon 
+
+
+   ```npm run dev```
+
+
+
+
+## Routes 
 ### Base Path
 ```httpg
 /blueocean/api/v1/
@@ -75,7 +83,7 @@ POST /users/
 }
 ```
 ```
-put /users/togglefriend/
+PUT /users/togglefriend/
 
 ```
 
